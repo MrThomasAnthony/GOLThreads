@@ -4,17 +4,21 @@ An extension of Conways Game of Life as demonstrated in Lab4 using a multi-threa
 # GOL Threads - Ubuntu
 
 To get started with the GOL Threads simulation, follow these steps:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/MrThomasAnthony/Lab4.git
+   cd Lab4/Lab4
 
-5. **Install g++ and ncurses (if not already installed):**
+2. **Install g++ and ncurses (if not already installed):**
 
    ```bash
    sudo apt update
    sudo apt install g++ libncurses5-dev libncursesw5-dev
 
-6. **Compile the Game of Life program:**
+3. **Compile the Game of Life program:**
     ```bash
     g++ main.cpp -o GOL -lncurses -pthread
 
-7. **Run the GOL Threads program:**
+4. **Run the GOL Threads program:**
     ```bash
     ./GOL 80 8 100

@@ -6,7 +6,7 @@ An extension of Conways Game of Life as demonstrated in Lab4 using a multi-threa
 To get started with the GOL Threads simulation, follow these steps:
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/MrThomasAnthony/Lab4.git
+   git clone https://github.com/MrThomasAnthony/GOLThreads.git
    cd GOLThreads
 
 2. **Install g++ and ncurses (if not already installed):**

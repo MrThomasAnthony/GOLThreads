@@ -106,11 +106,11 @@ int main(int argc, char** argv) {
         for (int i = 0; i < M; ++i) {
             for (int j = 0; j < M; ++j) {
                 mvwaddch(stdscr, i, j, board[i][j]);
-                usleep(100000);
+                
             }
         }
         wrefresh(stdscr);
-        
+        usleep(100000);
     }
 
     endwin();

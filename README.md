@@ -7,7 +7,7 @@ To get started with the GOL Threads simulation, follow these steps:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/MrThomasAnthony/Lab4.git
-   cd Lab4/Lab4
+   cd GOLThreads
 
 2. **Install g++ and ncurses (if not already installed):**
 
